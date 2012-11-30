@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, ers_webadmin,
+ [
+  {description, "ers_webadmin"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { ers_webadmin_app, []}},
+  {env, []}
+ ]}.
